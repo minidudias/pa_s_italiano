@@ -27,7 +27,7 @@ if(isset($_GET["e"])){
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'minidudias@gmail.com';
-            $mail->Password = 'xuhtymgqldzkaojy';
+            $mail->Password = '';  /** 16 Character Key */
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
             $mail->setFrom('minidudias@gmail.com', "Reset forgotten Pa's Italiano account password");
