@@ -1,0 +1,219 @@
+.logo{
+    background-image: url("logo.png");
+    height: 126px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+@font-face{
+    font-family: "rochester";
+    src: url("resource/fonts/Rochester-Regular.otf");
+}
+
+@font-face{
+    font-family: "bahnSchrift";
+    src: url("resource/fonts/BAHNSCHRIFT_8.ttf");
+}
+
+*{
+    font-family: "bahnSchrift";
+    font-size: 16px;
+}
+
+
+.footer-text{
+    font-family: "rochester";
+}
+
+.p1{
+    background-image: url("resource/category_squares/pizzas/1_1.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;    
+    transition-duration: 0.4s;    
+}
+.p1:hover{
+    cursor: pointer;
+    background-image: url("resource/category_squares/pizzas/1.jpg");
+    color: transparent;
+    transition-duration: 0.4s;    
+}
+
+.p2{
+    background-image: url("resource/category_squares/pastas/1_1.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;    
+    transition-duration: 0.4s;    
+}
+.p2:hover{
+    cursor: pointer;
+    background-image: url("resource/category_squares/pastas/1.jpg");
+    color: transparent;
+    transition-duration: 0.4s;    
+}
+.p3{
+    background-image: url("resource/category_squares/lasagne/1_1.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;    
+    transition-duration: 0.4s;    
+}
+.p3:hover{
+    cursor: pointer;
+    background-image: url("resource/category_squares/lasagne/1.jpg");
+    color: transparent;
+    transition-duration: 0.4s;    
+}
+.p4{
+    background-image: url("resource/category_squares/appetizers/1_1.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;    
+    transition-duration: 0.4s;    
+}
+.p4:hover{
+    cursor: pointer;
+    background-image: url("resource/category_squares/appetizers/1.jpg");
+    color: transparent;
+    transition-duration: 0.4s;    
+}
+.p5{
+    background-image: url("resource/category_squares/desserts/1_1.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;    
+    transition-duration: 0.4s;    
+}
+.p5:hover{
+    cursor: pointer;
+    background-image: url("resource/category_squares/desserts/1.jpg");
+    color: transparent;
+    transition-duration: 0.4s;    
+}
+.p6{
+    background-image: url("resource/category_squares/beverages/1_1.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;    
+    transition-duration: 0.4s;    
+}
+.p6:hover{
+    cursor: pointer;
+    background-image: url("resource/category_squares/beverages/1.jpg");
+    color: transparent;
+    transition-duration: 0.4s;    
+}
+
+.head1{
+    background-image: url("resource/head/pizza.jpg");
+    background-size:cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.head2{
+    background-image: url("resource/head/pasta.jpg");
+    background-size:cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.head3{
+    background-image: url("resource/head/lasagne.jpg");
+    background-size:cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.head4{
+    background-image: url("resource/head/appetizer.jpg");
+    background-size:cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.head5{
+    background-image: url("resource/head/dessert.jpg");
+    background-size:cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.head6{
+    background-image: url("resource/head/beverage.jpg");
+    background-size:cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.headwatchlist{
+    background-image: url("resource/head/watchlist.jpg");
+    background-size:cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+
+.heart:hover{
+    cursor: pointer;
+}
+
+.background{
+    background-image: url("resource/cooking_stuff.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.woman{
+    background-image: url("resource/smart-lady.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.shoppingcarticon{
+    background-image: url("resource/shoppingcarticon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.shoppingcarticon:hover{
+    cursor: pointer;
+}
+.mealthumb:hover{
+    cursor: pointer;
+}
+.signout:hover{
+    cursor: pointer;
+}
+.invoiceHeaderImg{
+    height:175px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Shrink wrap strategy 1 */
+.easyzoom {
+    float: left;
+}
+.easyzoom img {
+    display: block;
+}
+
+
+/* Shrink wrap strategy 2 */
+.easyzoom {
+    display: inline-block;
+}
+.easyzoom img {
+    vertical-align: bottom;
+}
